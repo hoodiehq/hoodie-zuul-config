@@ -30,7 +30,7 @@ module.exports = {
     },
     {
       name: 'microsoftedge',
-      version: '-1..latest'
+      version: 'latest'
     },
     {
       name: 'internet explorer',
