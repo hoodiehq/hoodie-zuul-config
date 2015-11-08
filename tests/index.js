@@ -37,7 +37,7 @@ test('zuul browsers', function (t) {
 
   var edge = browserSettingFor(zuulConfig, 'microsoftedge')
   t.is(Object.keys(edge).length, 1, '1 setting for browsers.microsoftedge')
-  t.is(edge.version, '-1..latest', 'Test in latest two versions')
+  t.is(edge.version, 'latest', 'Test in latest version')
 
   var ie = browserSettingFor(zuulConfig, 'internet explorer')
   t.is(Object.keys(ie).length, 1, '1 setting for browsers["internet explorer"]')
