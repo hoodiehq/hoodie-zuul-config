@@ -20,33 +20,39 @@ module.exports = {
   browsers: [
     {
       name: 'chrome',
-      version: '-1..latest',
-      platform: 'Windows 10'
-    },
-    {
-      name: 'firefox',
-      version: '-1..latest',
-      platform: 'Windows 10'
-    },
-    {
-      name: 'microsoftedge',
       version: 'latest'
-    },
-    {
-      name: 'internet explorer',
-      version: '11'
-    },
-    {
-      name: 'safari',
-      version: '-2..latest'
-    },
-    {
-      name: 'iphone',
-      version: '-2..latest'
-    },
-    {
-      name: 'android',
-      version: ['4.4', '-1..latest']
     }
+
+    // TODO: https://github.com/hoodiehq/hoodie-zuul-config/issues/1
+    // {
+    //   name: 'chrome',
+    //   version: '-1..latest',
+    //   platform: 'Windows 10'
+    // },
+    // {
+    //   name: 'firefox',
+    //   version: '-1..latest',
+    //   platform: 'Windows 10'
+    // },
+    // {
+    //   name: 'microsoftedge',
+    //   version: 'latest'
+    // },
+    // {
+    //   name: 'internet explorer',
+    //   version: '11'
+    // },
+    // {
+    //   name: 'safari',
+    //   version: '-2..latest'
+    // },
+    // {
+    //   name: 'iphone',
+    //   version: '-2..latest'
+    // },
+    // {
+    //   name: 'android',
+    //   version: ['4.4', '-1..latest']
+    // }
   ]
 }
