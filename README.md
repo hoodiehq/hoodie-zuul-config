@@ -45,4 +45,4 @@ For any questions, come to our [Hoodie chat](http://hood.ie/chat/), or ping us o
 
 ## License
 
-[Apache-2.0](https://github.com/hoodiehq/hoodie/blob/master/LICENSE)
+[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
